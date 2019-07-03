@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PrintAllDepotCauseDataSet4" targetNamespace="http://tempuri.org/PrintAllDepotCauseDataSet4.xsd" xmlns:mstns="http://tempuri.org/PrintAllDepotCauseDataSet4.xsd" xmlns="http://tempuri.org/PrintAllDepotCauseDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PrintAllDepotCauseDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PrintAllDepotCauseDataSet4" msprop:Generator_UserDSName="PrintAllDepotCauseDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="avocat" msprop:Generator_TableClassName="avocatDataTable" msprop:Generator_TableVarName="tableavocat" msprop:Generator_TablePropName="avocat" msprop:Generator_RowDeletingName="avocatRowDeleting" msprop:Generator_RowChangingName="avocatRowChanging" msprop:Generator_RowEvHandlerName="avocatRowChangeEventHandler" msprop:Generator_RowDeletedName="avocatRowDeleted" msprop:Generator_UserTableName="avocat" msprop:Generator_RowChangedName="avocatRowChanged" msprop:Generator_RowEvArgName="avocatRowChangeEvent" msprop:Generator_RowClassName="avocatRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom_avocat" msprop:Generator_ColumnVarNameInTable="columnnom_avocat" msprop:Generator_ColumnPropNameInRow="nom_avocat" msprop:Generator_ColumnPropNameInTable="nom_avocatColumn" msprop:Generator_UserColumnName="nom_avocat" type="xs:string" />
+              <xs:element name="adresse" msprop:Generator_ColumnVarNameInTable="columnadresse" msprop:Generator_ColumnPropNameInRow="adresse" msprop:Generator_ColumnPropNameInTable="adresseColumn" msprop:Generator_UserColumnName="adresse" type="xs:string" minOccurs="0" />
+              <xs:element name="logo" msprop:Generator_ColumnVarNameInTable="columnlogo" msprop:Generator_ColumnPropNameInRow="logo" msprop:Generator_ColumnPropNameInTable="logoColumn" msprop:Generator_UserColumnName="logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="autorite" msprop:Generator_ColumnVarNameInTable="columnautorite" msprop:Generator_ColumnPropNameInRow="autorite" msprop:Generator_ColumnPropNameInTable="autoriteColumn" msprop:Generator_UserColumnName="autorite" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Commande" msprop:Generator_TableClassName="CommandeDataTable" msprop:Generator_TableVarName="tableCommande" msprop:Generator_TablePropName="Commande" msprop:Generator_RowDeletingName="CommandeRowDeleting" msprop:Generator_RowChangingName="CommandeRowChanging" msprop:Generator_RowEvHandlerName="CommandeRowChangeEventHandler" msprop:Generator_RowDeletedName="CommandeRowDeleted" msprop:Generator_UserTableName="Commande" msprop:Generator_RowChangedName="CommandeRowChanged" msprop:Generator_RowEvArgName="CommandeRowChangeEvent" msprop:Generator_RowClassName="CommandeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_depot" msprop:Generator_ColumnVarNameInTable="columnid_depot" msprop:Generator_ColumnPropNameInRow="id_depot" msprop:Generator_ColumnPropNameInTable="id_depotColumn" msprop:Generator_UserColumnName="id_depot" type="xs:string" minOccurs="0" />
+              <xs:element name="id_cause" msprop:Generator_ColumnVarNameInTable="columnid_cause" msprop:Generator_ColumnPropNameInRow="id_cause" msprop:Generator_ColumnPropNameInTable="id_causeColumn" msprop:Generator_UserColumnName="id_cause" type="xs:string" minOccurs="0" />
+              <xs:element name="nom" msprop:Generator_ColumnVarNameInTable="columnnom" msprop:Generator_ColumnPropNameInRow="nom" msprop:Generator_ColumnPropNameInTable="nomColumn" msprop:Generator_UserColumnName="nom" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_adv" msprop:Generator_ColumnVarNameInTable="columnnom_adv" msprop:Generator_ColumnPropNameInRow="nom_adv" msprop:Generator_ColumnPropNameInTable="nom_advColumn" msprop:Generator_UserColumnName="nom_adv" type="xs:string" minOccurs="0" />
+              <xs:element name="num_check" msprop:Generator_ColumnVarNameInTable="columnnum_check" msprop:Generator_ColumnPropNameInRow="num_check" msprop:Generator_ColumnPropNameInTable="num_checkColumn" msprop:Generator_UserColumnName="num_check" type="xs:string" minOccurs="0" />
+              <xs:element name="montant" msprop:Generator_ColumnVarNameInTable="columnmontant" msprop:Generator_ColumnPropNameInRow="montant" msprop:Generator_ColumnPropNameInTable="montantColumn" msprop:Generator_UserColumnName="montant" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:avocat" />
+      <xs:field xpath="mstns:nom_avocat" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

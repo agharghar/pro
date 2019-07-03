@@ -1,0 +1,3243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AvocaBin</name>
+    </assembly>
+    <members>
+        <member name="F:AvocaBin.Controller.Activation.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Activation.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Activation.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.AjalatForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.AjalatForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.AjalatForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSet.UtilisateurDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSet.UtilisateurRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSet.UtilisateurRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.UtilisateurTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AvocaBin.Controller.DB_AvocabineDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AvocaBin.Controller.DB_AvocabineDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AvocaBin.Controller.DB_AvocabineDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.UpdateAll(AvocaBin.Controller.DB_AvocabineDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Controller.DB_AvocabineDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Avocat.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Avocat.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Avocat.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.cause_archivé.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.cause_archivé.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.cause_archivé.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Coercition_Physique.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Coercition_Physique.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Coercition_Physique.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ConfigurationServer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ConfigurationServer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ConfigurationServer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Fonction.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Fonction.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Fonction.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.FonctionAjoute.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.FonctionAjoute.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.FonctionAjoute.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.FonctionSupprimer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.FonctionSupprimer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.FonctionSupprimer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.FormMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.FormMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.impimeAllPlaingnants.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.impimeAllPlaingnants.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.impimeAllPlaingnants.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimerAgenda.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAgenda.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAgenda.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllAdv.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllAdv.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllAdv.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimerAllCauseArchive.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAllCauseArchive.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAllCauseArchive.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllCauses.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllCauses.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllCauses.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllClientCause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllClientCause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllClientCause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllDepotOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDepotOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDepotOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllDepotPlainte.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDepotPlainte.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDepotPlainte.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerAllDept_Cause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDept_Cause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerAllDept_Cause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimerAllPar_Plai.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAllPar_Plai.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerAllPar_Plai.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerCauseArchive.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerCauseArchive.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerCauseArchive.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ImprimerClientCause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerClientCause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ImprimerClientCause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimerParPlai.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerParPlai.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimerParPlai.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimer_adv_cause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimer_adv_cause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimer_adv_cause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Imprimer_cause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_cause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_cause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Imprimer_Depot_Cause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_Depot_Cause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_Depot_Cause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Imprimer_depot_order.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Imprimer_depot_order.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Imprimer_depot_order.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Imprimer_Depot_Plainte.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_Depot_Plainte.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Imprimer_Depot_Plainte.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.imprimer_plaignant.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimer_plaignant.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.imprimer_plaignant.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ListeTribunal.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ListeTribunal.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ListeTribunal.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ListeVille.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ListeVille.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ListeVille.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Login.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Login.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.MassarifListe.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.MassarifListe.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.MassarifListe.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.orderArchivé.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.orderArchivé.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.orderArchivé.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Piece_Joint_Order.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Piece_Joint_Order.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Piece_Joint_Order.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Piéce_Joint_Cause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Piéce_Joint_Cause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Piéce_Joint_Cause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Piéce_Joint_Plainte.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Piéce_Joint_Plainte.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Piéce_Joint_Plainte.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.plainteArchivé.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.plainteArchivé.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.plainteArchivé.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllCorrectionForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllCorrectionForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllCorrectionForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllOrderAdvForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrderAdvForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrderAdvForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllOrderClientForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrderClientForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrderClientForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Tablirat.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Tablirat.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Tablirat.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.tanfidDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.tanfidRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataAllTanfid.tanfidRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.AvocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.PlaignantDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.AvocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.PlaignantRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.AvocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAllPlaignat.PlaignantRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.par_plaiDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.AvocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.par_plaiRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.AvocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.par_plaiRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet_par_plai.AvocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllNotificationsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllNotificationsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllNotificationsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.notificationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.notificationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.notificationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintNotificationDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.PrintAllTanfid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.PrintAllTanfid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.PrintAllTanfid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneCorrectionForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneCorrectionForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneCorrectionForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneOrderAdvForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneOrderAdvForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneOrderAdvForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneTanfid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneTanfid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneTanfid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Splash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Splash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Splash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.tableau_Utilisateur.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.tableau_Utilisateur.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.tableau_Utilisateur.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.TableHistory.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.TableHistory.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.TableHistory.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Tanfidate.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Tanfidate.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Tanfidate.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Update_tanfid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Update_tanfid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Update_tanfid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.جلسات_الشكاية.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.جلسات_الشكاية.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.جلسات_الشكاية.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.adversaireDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.adversaireRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.adversaireRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasate_adv.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.AgendaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.AgendaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.AgendaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet3.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.plaignantDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.plaignantRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet4.plaignantRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAgenda">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAgenda.AgendaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAgenda.AgendaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetAgenda.AgendaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.causeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.sessioneDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.causeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.sessioneRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.causeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSetCause.sessioneRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.clientDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.clientRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.clientRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.datasetClient.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.clientDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.causeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.advDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.tanfidDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.AvocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.causeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.clientRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.advRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.tanfidRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.AvocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.causeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.clientRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.advRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.tanfidRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataTanfid.AvocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.coercition_physiqueDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.coercition_physiqueRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.coercition_physiqueRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintCorrectionDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.coercition_physiqueDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.coercition_physiqueRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.coercition_physiqueRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintCorrectionDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.client_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.client_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.client_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllClientOrderDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.CommandeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.CommandeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotCauseDataSet4.CommandeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.commandeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.commandeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotOrderDataSet4.commandeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.CommandeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.CommandeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllDepotPlaintDataSet4.CommandeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.adv_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.adv_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.adv_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllOrderAdvDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.plainteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.plainteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.plainteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintAllPlaintDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllPlainteArchivé.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllPlainteArchivé.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllPlainteArchivé.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintDecisionDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintDecisionDataSet.decision_plainteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintDecisionDataSet.decision_plainteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintDecisionDataSet.decision_plainteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.paiementDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.paiementRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.paiementRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintMassarifDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.PrintMassarifForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.PrintMassarifForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.PrintMassarifForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.ProposNous.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.ProposNous.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.ProposNous.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Tableau_Des_RDV.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Tableau_Des_RDV.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Tableau_Des_RDV.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.TextJuridique.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.TextJuridique.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.TextJuridique.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.tribunalAjouter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.tribunalAjouter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.tribunalAjouter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.tribunalSuprimer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.tribunalSuprimer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.tribunalSuprimer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.VilleAjoute.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.VilleAjoute.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.VilleAjoute.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.VilleSupprimer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.VilleSupprimer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.VilleSupprimer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.Wadiaa.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.Wadiaa.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.Wadiaa.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Controller.المصاريف.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Controller.المصاريف.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Controller.المصاريف.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.جدول_الاوامر.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.جدول_الاوامر.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.جدول_الاوامر.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Creation_Des_Compte.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Creation_Des_Compte.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Creation_Des_Compte.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet1.causesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet1.causesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet1.causesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.orderrDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.orderrRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.orderrRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DataSet2.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.OK">
+            <summary>
+            OK text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.Cancel">
+            <summary>
+            Cancel text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.Abort">
+            <summary>
+            Abort text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.Retry">
+            <summary>
+            Retry text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.Ignore">
+            <summary>
+            Ignore text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.Yes">
+            <summary>
+            Yes text
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.MessageBoxManager.No">
+            <summary>
+            No text
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.MessageBoxManager.Register">
+            <summary>
+            Enables MessageBoxManager functionality
+            </summary>
+            <remarks>
+            MessageBoxManager functionality is enabled on current thread only.
+            Each thread that needs MessageBoxManager functionality has to call this method.
+            </remarks>
+        </member>
+        <member name="M:System.Windows.Forms.MessageBoxManager.Unregister">
+            <summary>
+            Disables MessageBoxManager functionality
+            </summary>
+            <remarks>
+            Disables MessageBoxManager functionality on current thread only.
+            </remarks>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.adv_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.client_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.adv_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.client_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.adv_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.client_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.OneOrderDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllOrdersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrdersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllOrdersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintAllPlaintes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintAllPlaintes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintAllPlaintes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneClientOrderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneClientOrderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneClientOrderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.fileDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.notificationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.fileRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.notificationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.fileRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.DateSet.PrintOneNotificationDataSet.notificationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.fileDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.notificationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.fileRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.notificationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.fileRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneNotificationDataSet.notificationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.PrintOneNotificationForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.PrintOneNotificationForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.PrintOneNotificationForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.adv_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.adv_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.adv_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderAdvDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.client_orderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.client_orderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.client_orderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintOneOrderClientDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plainteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.avocatDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plaignantDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.par_plaignantDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.decision_plainteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plainteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.avocatRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plaignantRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.par_plaignantRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.decision_plainteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plainteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.avocatRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.plaignantRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.par_plaignantRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:AvocaBin.PrintPlaintDataSet.decision_plainteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:AvocaBin.ادارة_الخصوم.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.ادارة_الخصوم.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.ادارة_الخصوم.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.ادارة_الموكلين.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.ادارة_الموكلين.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.ادارة_الموكلين.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.ادارة_خصوم_الامر.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.ادارة_خصوم_الامر.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.ادارة_خصوم_الامر.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.ادارة_موكلي_الامر.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.ادارة_موكلي_الامر.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.ادارة_موكلي_الامر.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.الأمر.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.الأمر.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.الأمر.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.الجلسات.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.الجلسات.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.الجلسات.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.المشتكون.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.المشتكون.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.المشتكون.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.المشتكون_بهم.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.المشتكون_بهم.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.المشتكون_بهم.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.الموضوع.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.الموضوع.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.الموضوع.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.اليومية.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.اليومية.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.اليومية.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.جدول_القضايا.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.جدول_القضايا.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.جدول_القضايا.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.جدول_الشكايات.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.جدول_الشكايات.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.جدول_الشكايات.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.دليل_الهاتف.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.دليل_الهاتف.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.دليل_الهاتف.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.شكاية.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.شكاية.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.شكاية.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Report.DataSetPrintOnePieceDepot">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Report.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Report.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Report.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Report.ImprimerOnePieceJointDepotCause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotCause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotCause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Report.ImprimerOnePieceJointDepotOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AvocaBin.Report.PrintOnePieceJointDepotCause.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AvocaBin.Report.PrintOnePieceJointDepotCause.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AvocaBin.Report.PrintOnePieceJointDepotCause.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AvocaBin.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources._____icon_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources._3132_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources._31322fgf2_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources._6_1__01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.admin_panel3_03">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_02">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_03">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_04">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_05">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_06">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_07">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_08">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_081">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_09">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_10">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_11">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_12">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_13">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_14">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_15">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_16">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_17">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_171">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_18">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_181">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_19">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_20">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_21">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_24">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_25">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_26">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_27">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_28">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_29">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_30">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_31">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_32">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_33">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_34">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_35">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_36">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_37">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_38">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_381">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_39">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_391">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_40">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_41">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_42">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_45">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_46">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_47">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_471">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_48">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.document2_49">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.drive_key_icone_8814">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Fond_ecran_des_forms">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_02">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_02_Blach">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_03">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_04">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_mini_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_mini_02">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.icon_mini_03">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.iconeAvoca">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.ok_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.OQ5KB31_time_to_market4">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Sans_titre_3">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Splach">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.theam_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_01">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_02">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_12">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_13">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_14">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_141">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_15">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_16">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_161">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_17">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_18">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_181">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AvocaBin.Properties.Resources.Untitled_1_19">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

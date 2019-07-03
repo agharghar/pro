@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="الاحصائيات " />
+  <DataSources>
+    <SqlDataSource ComponentName="dashboardSqlDataSource1">
+      <Name>SQL Data Source 1</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="cause">
+        <Tables>
+          <Table Name="cause" Meta="30|30|125|463" />
+          <Table Name="adversaire_cause" Meta="185|30|125|216" />
+          <Table Name="client_cause" Meta="340|30|125|216" />
+          <Table Name="sessione" Meta="495|30|125|159" />
+          <Relation Type="Inner" Parent="cause" Nested="adversaire_cause">
+            <KeyColumn Parent="id_adv" Nested="id_adversaire_cause" />
+          </Relation>
+          <Relation Type="Inner" Parent="cause" Nested="client_cause">
+            <KeyColumn Parent="id_client" Nested="id_client_cause" />
+          </Relation>
+          <Relation Type="Inner" Parent="cause" Nested="sessione">
+            <KeyColumn Parent="id_cause" Nested="id_cause" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="cause" Name="id_cause" />
+          <Column Table="adversaire_cause" Name="id_adversaire_cause" />
+          <Column Table="client_cause" Name="id_client_cause" />
+          <Column Table="sessione" Name="id_session" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="cause">
+            <Field Name="id_cause" Type="String" />
+            <Field Name="id_adversaire_cause" Type="Int32" />
+            <Field Name="id_client_cause" Type="Int32" />
+            <Field Name="id_session" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource2">
+      <Name>SQL Data Source 2</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="orderr">
+        <Tables>
+          <Table Name="orderr" Meta="30|30|125|284" />
+          <Table Name="client_order" Meta="185|30|125|208" />
+          <Table Name="adv_order" Meta="340|30|125|189" />
+          <Relation Type="Inner" Parent="orderr" Nested="client_order">
+            <KeyColumn Parent="id_client_order" Nested="id_client_order" />
+          </Relation>
+          <Relation Type="Inner" Parent="orderr" Nested="adv_order">
+            <KeyColumn Parent="id_adversaire_order" Nested="id_adv_order" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="adv_order" Name="id_adv_order" />
+          <Column Table="client_order" Name="id_client_order" />
+          <Column Table="orderr" Name="id_order" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 2">
+          <View Name="orderr">
+            <Field Name="id_adv_order" Type="Int32" />
+            <Field Name="id_client_order" Type="Int32" />
+            <Field Name="id_order" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource3">
+      <Name>SQL Data Source 3</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="plainte">
+        <Tables>
+          <Table Name="plainte" Meta="30|30|125|246" />
+          <Table Name="plainte_par_plaignant" Meta="185|30|125|94" />
+          <Table Name="plaignant" Meta="340|30|125|208" />
+          <Relation Type="Inner" Parent="plainte" Nested="plainte_par_plaignant">
+            <KeyColumn Parent="id_plainte" Nested="id_plainte" />
+          </Relation>
+          <Relation Type="Inner" Parent="plainte" Nested="plaignant">
+            <KeyColumn Parent="id_plaignant" Nested="id_plaignant" />
+            <KeyColumn Parent="id_plaignant" Nested="id_plaignant" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="plainte" Name="id_plainte" />
+          <Column Table="plainte_par_plaignant" Name="id_par_plaignant" />
+          <Column Table="plaignant" Name="id_plaignant" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 3">
+          <View Name="plainte">
+            <Field Name="id_plainte" Type="String" />
+            <Field Name="id_par_plaignant" Type="Int32" />
+            <Field Name="id_plaignant" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource4">
+      <Name>SQL Data Source 4</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="PJ_cause">
+        <Tables>
+          <Table Name="PJ_cause" Meta="30|30|125|151" />
+          <Table Name="cause" Meta="185|30|125|455" />
+          <Relation Type="Inner" Parent="PJ_cause" Nested="cause">
+            <KeyColumn Parent="id_cause" Nested="id_cause" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="PJ_cause" Name="id_pj" />
+          <Column Table="PJ_cause" Name="id_cause" />
+          <Column Table="cause" Name="id_cause" Alias="cause_id_cause" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 4">
+          <View Name="PJ_cause">
+            <Field Name="id_pj" Type="Int32" />
+            <Field Name="id_cause" Type="String" />
+            <Field Name="cause_id_cause" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource5">
+      <Name>SQL Data Source 5</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="PJ_order">
+        <Tables>
+          <Table Name="PJ_order" Meta="30|30|125|151" />
+          <Table Name="orderr" Meta="185|30|125|284" />
+          <Relation Type="Inner" Parent="PJ_order" Nested="orderr">
+            <KeyColumn Parent="id_order" Nested="id_order" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="PJ_order" Name="id_order" />
+          <Column Table="orderr" Name="id_order" Alias="orderr_id_order" />
+          <Column Table="PJ_order" Name="id_pj" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 5">
+          <View Name="PJ_order">
+            <Field Name="id_order" Type="String" />
+            <Field Name="orderr_id_order" Type="String" />
+            <Field Name="id_pj" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource6">
+      <Name>SQL Data Source 6</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="PJ_plainte">
+        <Tables>
+          <Table Name="PJ_plainte" Meta="30|30|125|151" />
+          <Table Name="plainte" Meta="185|30|125|246" />
+          <Relation Type="Inner" Parent="PJ_plainte" Nested="plainte">
+            <KeyColumn Parent="id_plainte" Nested="id_plainte" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="PJ_plainte" Name="id_pj" />
+          <Column Table="PJ_plainte" Name="id_plainte" />
+          <Column Table="plainte" Name="id_plainte" Alias="plainte_id_plainte" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 6">
+          <View Name="PJ_plainte">
+            <Field Name="id_pj" Type="Int32" />
+            <Field Name="id_plainte" Type="String" />
+            <Field Name="plainte_id_plainte" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource7">
+      <Name>SQL Data Source 7</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="depot_cause">
+        <Tables>
+          <Table Name="depot_cause" Meta="30|30|125|197" />
+          <Table Name="cause" Meta="185|30|125|463" />
+          <Relation Type="Inner" Parent="depot_cause" Nested="cause">
+            <KeyColumn Parent="id_cause" Nested="id_cause" />
+            <KeyColumn Parent="id_cause" Nested="id_cause" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="depot_cause" Name="id_depot" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 7">
+          <View Name="depot_cause">
+            <Field Name="id_depot" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource8">
+      <Name>SQL Data Source 8</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="orderr">
+        <Tables>
+          <Table Name="orderr" Meta="30|30|125|292" />
+          <Table Name="PJ_order" Meta="185|30|125|159" />
+          <Relation Type="Inner" Parent="orderr" Nested="PJ_order">
+            <KeyColumn Parent="id_order" Nested="id_order" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="PJ_order" Name="id_pj" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 8">
+          <View Name="orderr">
+            <Field Name="id_pj" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource9">
+      <Name>SQL Data Source 9</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="plainte">
+        <Tables>
+          <Table Name="plainte" Meta="30|30|125|254" />
+          <Table Name="depot_plgn" Meta="185|30|125|197" />
+          <Relation Type="Inner" Parent="plainte" Nested="depot_plgn">
+            <KeyColumn Parent="id_plainte" Nested="id_plainte" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="depot_plgn" Name="id_depot" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 9">
+          <View Name="plainte">
+            <Field Name="id_depot" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource10">
+      <Name>SQL Data Source 10</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="RDV">
+        <Tables>
+          <Table Name="RDV" Meta="30|30|125|140" />
+        </Tables>
+        <Columns>
+          <Column Table="RDV" Name="CinRDV" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 10">
+          <View Name="RDV">
+            <Field Name="CinRDV" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="dashboardSqlDataSource11">
+      <Name>SQL Data Source 11</Name>
+      <Connection Name="ABDESSAMAD-PC_DB_Avocabine_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="ABDESSAMAD-PC" />
+          <Parameter Name="database" Value="DB_Avocabine" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="depot_order">
+        <Tables>
+          <Table Name="depot_order" Meta="30|30|125|172" />
+          <Table Name="orderr" Meta="185|30|125|286" />
+          <Relation Type="Inner" Parent="depot_order" Nested="orderr">
+            <KeyColumn Parent="id_order" Nested="id_order" />
+            <KeyColumn Parent="id_order" Nested="id_order" />
+            <KeyColumn Parent="id_order" Nested="id_order" />
+          </Relation>
+        </Tables>
+        <Columns>
+          <Column Table="depot_order" Name="id_depot" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 11">
+          <View Name="depot_order">
+            <Field Name="id_depot" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pie ComponentName="pieDashboardItem1" Name="احصائيات القضايا" Group="dashboardItemGroup1" DataSource="dashboardSqlDataSource1" DataMember="cause" ShowPieCaptions="false">
+      <DataItems>
+        <Measure DataMember="id_cause" Name="احصائيات القضايا" SummaryType="Count" DefaultId="DataItem0" />
+        <Measure DataMember="id_adversaire_cause" Name="احصائيات خصوم القضايا" SummaryType="Count" DefaultId="DataItem1" />
+        <Measure DataMember="id_client_cause" Name="احصائيات موكلي القضايا" SummaryType="Count" DefaultId="DataItem2" />
+        <Measure DataMember="id_session" Name="احصائيات الجلسات " SummaryType="Count" DefaultId="DataItem3" />
+      </DataItems>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem1" />
+        <Value DefaultId="DataItem2" />
+        <Value DefaultId="DataItem3" />
+      </Values>
+    </Pie>
+    <Pie ComponentName="pieDashboardItem2" Name="احصائيات الاوامر و الاستعجالات" Group="dashboardItemGroup1" DataSource="dashboardSqlDataSource2" DataMember="orderr">
+      <DataItems>
+        <Measure DataMember="id_order" Name="الاوامر" SummaryType="Count" DefaultId="DataItem0" />
+        <Measure DataMember="id_client_order" Name="موكلي الامر" SummaryType="Count" DefaultId="DataItem1" />
+        <Measure DataMember="id_adv_order" Name="خصوم الامر" SummaryType="Count" DefaultId="DataItem2" />
+      </DataItems>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem1" />
+        <Value DefaultId="DataItem2" />
+      </Values>
+    </Pie>
+    <Pie ComponentName="pieDashboardItem3" Name="احصائيات الاوامر" Group="dashboardItemGroup1" DataSource="dashboardSqlDataSource3" DataMember="plainte">
+      <DataItems>
+        <Measure DataMember="id_par_plaignant" Name="المشتكى بهم" SummaryType="Count" DefaultId="DataItem0" />
+        <Measure DataMember="id_plainte" Name="الشكايات" SummaryType="Count" DefaultId="DataItem1" />
+        <Measure DataMember="id_plaignant" Name="المشتكون" SummaryType="Count" DefaultId="DataItem2" />
+      </DataItems>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem1" />
+        <Value DefaultId="DataItem2" />
+      </Values>
+    </Pie>
+    <Chart ComponentName="chartDashboardItem1" Name=" الوثائق المرفقة للاوامر " Group="dashboardItemGroup2" DataSource="dashboardSqlDataSource5" DataMember="PJ_order">
+      <DataItems>
+        <Measure DataMember="id_pj" Name="و . م . الامر" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="عدد الوثائق">
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions Visible="true" Content="ArgumentAndValue" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem2" Name="الوثائق المرفقة للقضايا " Group="dashboardItemGroup2" DataSource="dashboardSqlDataSource4" DataMember="PJ_cause">
+      <DataItems>
+        <Measure DataMember="id_pj" Name="و . م . القضية" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="عدد الوثائق">
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions Visible="true" Content="ArgumentAndValue" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem3" Name="الوثائق المرفقة للشكايات" Group="dashboardItemGroup2" DataSource="dashboardSqlDataSource6" DataMember="PJ_plainte">
+      <DataItems>
+        <Measure DataMember="id_pj" Name="و . م . شكاية" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="عدد الوثائق">
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions Visible="true" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Card ComponentName="cardDashboardItem1" Name="احصائيات المواعيد" Group="dashboardItemGroup4" DataSource="dashboardSqlDataSource10" DataMember="RDV" ContentArrangementMode="FixedColumnCount">
+      <DataItems>
+        <Measure DataMember="CinRDV" Name="المواعيد " SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Card>
+        <ActualValue DefaultId="DataItem0" />
+      </Card>
+    </Card>
+    <Chart ComponentName="chartDashboardItem4" Name="القضايا" Group="dashboardItemGroup3" DataSource="dashboardSqlDataSource7" DataMember="depot_cause">
+      <DataItems>
+        <Measure DataMember="id_depot" Name="ودائع القضية" SummaryType="Count" DefaultId="DataItem1" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="ودائع القضايا" SeriesType="StackedBar">
+              <Value DefaultId="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem5" Name="الاوامر " Group="dashboardItemGroup3" DataSource="dashboardSqlDataSource11" DataMember="depot_order">
+      <DataItems>
+        <Measure DataMember="id_depot" Name="ودائع الامر" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple Name="ودائع الاوامر" SeriesType="StackedBar">
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem6" Name="الشكايات" Group="dashboardItemGroup3" DataSource="dashboardSqlDataSource9" DataMember="plainte">
+      <DataItems>
+        <Measure DataMember="id_depot" Name="ودائع الشكاية" SummaryType="Count" DefaultId="DataItem0" />
+      </DataItems>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <Groups>
+    <Group ComponentName="dashboardItemGroup1" Name="احصائيات المواضيع و الاوامر و الشكايات" />
+    <Group ComponentName="dashboardItemGroup2" Name="احصائيات الوثائق المرفقة " />
+    <Group ComponentName="dashboardItemGroup3" Name="احصائيات الودائع" />
+    <Group ComponentName="dashboardItemGroup4" Name="المواعيد" />
+  </Groups>
+  <ColorScheme>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="cause" Color="-6519959">
+      <MeasureKey>
+        <Definition DataMember="id_adversaire_cause" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="cause" Color="-9282238">
+      <MeasureKey>
+        <Definition DataMember="id_cause" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="cause" Color="-11913451">
+      <MeasureKey>
+        <Definition DataMember="id_client_cause" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="cause" PaletteIndex="15">
+      <MeasureKey>
+        <Definition DataMember="id_session" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource2" DataMember="orderr" Color="-6519959">
+      <MeasureKey>
+        <Definition DataMember="id_adv_order" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource2" DataMember="orderr" Color="-9282238">
+      <MeasureKey>
+        <Definition DataMember="id_client_order" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource2" DataMember="orderr" Color="-11913451">
+      <MeasureKey>
+        <Definition DataMember="id_order" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource3" DataMember="plainte" Color="-6519959">
+      <MeasureKey>
+        <Definition DataMember="id_par_plaignant" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource3" DataMember="plainte" Color="-9282238">
+      <MeasureKey>
+        <Definition DataMember="id_plaignant" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource3" DataMember="plainte" Color="-11913451">
+      <MeasureKey>
+        <Definition DataMember="id_plainte" SummaryType="Count" />
+      </MeasureKey>
+    </Entry>
+  </ColorScheme>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup Orientation="Vertical" Weight="63.743315508021389">
+        <LayoutGroup DashboardItem="dashboardItemGroup1" Weight="50.094876660341555">
+          <LayoutItem DashboardItem="pieDashboardItem1" Weight="33.854166666666664" />
+          <LayoutItem DashboardItem="pieDashboardItem3" Weight="29.861111111111111" />
+          <LayoutItem DashboardItem="pieDashboardItem2" Weight="36.284722222222221" />
+        </LayoutGroup>
+        <LayoutGroup DashboardItem="dashboardItemGroup3" Weight="49.905123339658445">
+          <LayoutItem DashboardItem="chartDashboardItem4" Weight="32.986111111111114" />
+          <LayoutItem DashboardItem="chartDashboardItem5" Weight="34.548611111111114" />
+          <LayoutItem DashboardItem="chartDashboardItem6" Weight="32.465277777777779" />
+        </LayoutGroup>
+      </LayoutGroup>
+      <LayoutGroup Orientation="Vertical" Weight="36.256684491978611">
+        <LayoutGroup DashboardItem="dashboardItemGroup2" Weight="57.30550284629981">
+          <LayoutGroup Orientation="Vertical" Weight="48.275862068965516">
+            <LayoutItem DashboardItem="chartDashboardItem1" Weight="61.417322834645667" />
+            <LayoutItem DashboardItem="chartDashboardItem2" Weight="38.582677165354333" />
+          </LayoutGroup>
+          <LayoutItem DashboardItem="chartDashboardItem3" Weight="51.724137931034484" />
+        </LayoutGroup>
+        <LayoutGroup Orientation="Vertical" DashboardItem="dashboardItemGroup4" Weight="42.69449715370019">
+          <LayoutItem DashboardItem="cardDashboardItem1" Weight="100" />
+        </LayoutGroup>
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

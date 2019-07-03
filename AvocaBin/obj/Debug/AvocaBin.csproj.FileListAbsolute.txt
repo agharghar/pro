@@ -1,0 +1,431 @@
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.ResolveComReference.cache
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Activation.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ActivationAvocaBine.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.AjalatForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Avocat.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.cause_archivé.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ConfigurationServer.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Fonction.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionAjoute.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionSupprimer.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAgenda.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllAdv.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllCauseArchive.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllCauses.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllClientCause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotOrder.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotPlainte.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDept_Cause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerCauseArchive.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerClientCause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_adv_cause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_cause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Cause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Imprimer_depot_order.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Plainte.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_plaignant.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeTribunal.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeVille.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Login.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.MassarifListe.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.orderArchivé.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piece_Joint_Order.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Cause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Plainte.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.plainteArchivé.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderAdvForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderClientForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintMassarifForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderAdvForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ProposNous.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Splash.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Tableau_Des_RDV.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tableau_Utilisateur.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TableHistory.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tanfidate.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TextJuridique.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.tribunalAjouter.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tribunalSuprimer.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.VilleAjoute.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.VilleSupprimer.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Wadiaa.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.المصاريف.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الاوامر.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Creation_Des_Compte.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.جلسات_الشكاية.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Form2.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrdersForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlainteArchivé.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlaintes.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneClientOrderForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Properties.Resources.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الخصوم.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الموكلين.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_خصوم_الامر.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_موكلي_الامر.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الأمر.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الجلسات.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون_بهم.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الموضوع.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.اليومية.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_القضايا.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الشكايات.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.دليل_الهاتف.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.شكاية.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotCause.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotOrder.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.GenerateResource.Cache
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.licenses
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.resx
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.cs
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.Designer.cs
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.config
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.XML
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.pdb
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.dll
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.xml
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.Form1.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Coercition_Physique.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneCorrectionForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllCorrectionForm.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneTanfid.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Update_tanfid.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintAllTanfid.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.impimeAllPlaingnants.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerParPlai.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllPar_Plai.resources
+C:\Users\abdessamad\Desktop\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csprojResolveAssemblyReference.cache
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.ResolveComReference.cache
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Activation.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ActivationAvocaBine.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.AjalatForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Avocat.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.cause_archivé.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Coercition_Physique.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ConfigurationServer.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Fonction.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionAjoute.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionSupprimer.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.impimeAllPlaingnants.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAgenda.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllAdv.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllCauseArchive.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllCauses.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllClientCause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotOrder.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotPlainte.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDept_Cause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllPar_Plai.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerCauseArchive.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerClientCause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerParPlai.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_adv_cause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_cause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Cause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Imprimer_depot_order.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Plainte.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_plaignant.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeTribunal.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeVille.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Login.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.MassarifListe.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.orderArchivé.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piece_Joint_Order.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Cause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Plainte.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.plainteArchivé.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllCorrectionForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderAdvForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderClientForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintAllTanfid.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintMassarifForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneCorrectionForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderAdvForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneTanfid.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ProposNous.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Splash.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Tableau_Des_RDV.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tableau_Utilisateur.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TableHistory.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tanfidate.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TextJuridique.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.tribunalAjouter.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tribunalSuprimer.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Update_tanfid.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.VilleAjoute.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.VilleSupprimer.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Wadiaa.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.المصاريف.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الاوامر.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Creation_Des_Compte.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.جلسات_الشكاية.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Form2.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrdersForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlainteArchivé.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlaintes.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneClientOrderForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Properties.Resources.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الخصوم.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الموكلين.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_خصوم_الامر.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_موكلي_الامر.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الأمر.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الجلسات.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون_بهم.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الموضوع.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.اليومية.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_القضايا.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الشكايات.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.دليل_الهاتف.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.شكاية.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.Form1.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotCause.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotOrder.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.GenerateResource.Cache
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.licenses
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.resx
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.cs
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.Designer.cs
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.config
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.XML
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.pdb
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.dll
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.xml
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tablirat.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllNotificationsForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneNotificationForm.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.ar-MA.resources
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\ar-MA\AvocaBin.resources.dll
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csprojResolveAssemblyReference.cache
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.dll
+C:\Users\abdessamad\Desktop\AvocaBin source code\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.xml
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csprojResolveAssemblyReference.cache
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Interop.ONAddInForWord.dll
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.ResolveComReference.cache
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Activation.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ActivationAvocaBine.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.AjalatForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Avocat.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.cause_archivé.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Coercition_Physique.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ConfigurationServer.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Fonction.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionAjoute.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionSupprimer.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.impimeAllPlaingnants.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAgenda.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllAdv.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllCauseArchive.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllCauses.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllClientCause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotOrder.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotPlainte.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDept_Cause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllPar_Plai.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerCauseArchive.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerClientCause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerParPlai.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_adv_cause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_cause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Cause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Imprimer_depot_order.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Plainte.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_plaignant.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeTribunal.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeVille.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Login.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.MassarifListe.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.orderArchivé.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piece_Joint_Order.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Cause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Plainte.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.plainteArchivé.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllCorrectionForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderAdvForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderClientForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tablirat.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllNotificationsForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintAllTanfid.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintMassarifForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneCorrectionForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderAdvForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneTanfid.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ProposNous.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Splash.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Tableau_Des_RDV.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tableau_Utilisateur.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TableHistory.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tanfidate.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TextJuridique.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.tribunalAjouter.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tribunalSuprimer.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Update_tanfid.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.VilleAjoute.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.VilleSupprimer.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Wadiaa.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.المصاريف.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الاوامر.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Creation_Des_Compte.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.جلسات_الشكاية.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Form2.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrdersForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlainteArchivé.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlaintes.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneClientOrderForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneNotificationForm.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Properties.Resources.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الخصوم.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الموكلين.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_خصوم_الامر.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_موكلي_الامر.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الأمر.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الجلسات.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون_بهم.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الموضوع.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.اليومية.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_القضايا.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الشكايات.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.دليل_الهاتف.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.شكاية.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.Form1.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotCause.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotOrder.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.ar-MA.resources
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.GenerateResource.Cache
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.licenses
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\ar-MA\AvocaBin.resources.dll
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.resx
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.cs
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.Designer.cs
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.config
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.XML
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.pdb
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.dll
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.dll
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.xml
+F:\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.xml
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csprojResolveAssemblyReference.cache
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Interop.ONAddInForWord.dll
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.ResolveComReference.cache
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Activation.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ActivationAvocaBine.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.AjalatForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Avocat.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.cause_archivé.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Coercition_Physique.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ConfigurationServer.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Fonction.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionAjoute.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.FonctionSupprimer.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.impimeAllPlaingnants.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAgenda.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllAdv.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllCauseArchive.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllCauses.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllClientCause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotOrder.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDepotPlainte.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerAllDept_Cause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerAllPar_Plai.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerCauseArchive.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ImprimerClientCause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimerParPlai.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_adv_cause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_cause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Cause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Imprimer_depot_order.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Imprimer_Depot_Plainte.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.imprimer_plaignant.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeTribunal.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ListeVille.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Login.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.MassarifListe.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.orderArchivé.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piece_Joint_Order.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Cause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Piéce_Joint_Plainte.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.plainteArchivé.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllCorrectionForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderAdvForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrderClientForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tablirat.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllNotificationsForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintAllTanfid.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.PrintMassarifForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneCorrectionForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderAdvForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneOrderForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneTanfid.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.ProposNous.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Splash.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Tableau_Des_RDV.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tableau_Utilisateur.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TableHistory.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Tanfidate.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.TextJuridique.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.tribunalAjouter.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.tribunalSuprimer.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Update_tanfid.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.VilleAjoute.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.VilleSupprimer.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.Wadiaa.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.المصاريف.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الاوامر.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Creation_Des_Compte.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Controller.جلسات_الشكاية.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Form2.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllOrdersForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlainteArchivé.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintAllPlaintes.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneClientOrderForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.PrintOneNotificationForm.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Properties.Resources.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الخصوم.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_الموكلين.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_خصوم_الامر.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.ادارة_موكلي_الامر.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الأمر.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الجلسات.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.المشتكون_بهم.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.الموضوع.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.اليومية.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_القضايا.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.جدول_الشكايات.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.دليل_الهاتف.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.شكاية.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.Form1.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotCause.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotOrder.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.Report.ImprimerOnePieceJointDepotPlgnt.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.FormMain.ar-MA.resources
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.csproj.GenerateResource.Cache
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.licenses
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\ar-MA\AvocaBin.resources.dll
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.resx
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.cs
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\Controller\Piéce_Joint_Plainte.Designer.cs
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe.config
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.exe
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.XML
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\AvocaBin.pdb
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.dll
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.dll
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\CircularProgressBar.xml
+F:\Nouveau dossier (3)\PRO\Avocabine Update 1\AvocaBin\AvocaBin\obj\Debug\WinFormAnimation.xml

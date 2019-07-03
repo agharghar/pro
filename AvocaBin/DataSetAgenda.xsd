@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetAgenda" targetNamespace="http://tempuri.org/DataSetAgenda.xsd" xmlns:mstns="http://tempuri.org/DataSetAgenda.xsd" xmlns="http://tempuri.org/DataSetAgenda.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetAgenda" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetAgenda" msprop:Generator_UserDSName="DataSetAgenda">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Agenda" msprop:Generator_TableClassName="AgendaDataTable" msprop:Generator_TableVarName="tableAgenda" msprop:Generator_RowChangedName="AgendaRowChanged" msprop:Generator_TablePropName="Agenda" msprop:Generator_RowDeletingName="AgendaRowDeleting" msprop:Generator_RowChangingName="AgendaRowChanging" msprop:Generator_RowEvHandlerName="AgendaRowChangeEventHandler" msprop:Generator_RowDeletedName="AgendaRowDeleted" msprop:Generator_RowClassName="AgendaRow" msprop:Generator_UserTableName="Agenda" msprop:Generator_RowEvArgName="AgendaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="المرجع" msprop:Generator_ColumnVarNameInTable="columnالمرجع" msprop:Generator_ColumnPropNameInRow="المرجع" msprop:Generator_ColumnPropNameInTable="المرجعColumn" msprop:Generator_UserColumnName="المرجع" type="xs:string" minOccurs="0" />
+              <xs:element name="الموكل" msprop:Generator_ColumnVarNameInTable="columnالموكل" msprop:Generator_ColumnPropNameInRow="الموكل" msprop:Generator_ColumnPropNameInTable="الموكلColumn" msprop:Generator_UserColumnName="الموكل" type="xs:string" minOccurs="0" />
+              <xs:element name="الخصم" msprop:Generator_ColumnVarNameInTable="columnالخصم" msprop:Generator_ColumnPropNameInRow="الخصم" msprop:Generator_ColumnPropNameInTable="الخصمColumn" msprop:Generator_UserColumnName="الخصم" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_القضية" msprop:Generator_ColumnVarNameInTable="columnرقم_القضية" msprop:Generator_ColumnPropNameInRow="رقم_القضية" msprop:Generator_ColumnPropNameInTable="رقم_القضيةColumn" msprop:Generator_UserColumnName="رقم القضية" type="xs:string" minOccurs="0" />
+              <xs:element name="نوع_x0020_القضية" msprop:Generator_ColumnVarNameInTable="columnنوع_القضية" msprop:Generator_ColumnPropNameInRow="نوع_القضية" msprop:Generator_ColumnPropNameInTable="نوع_القضيةColumn" msprop:Generator_UserColumnName="نوع القضية" type="xs:string" minOccurs="0" />
+              <xs:element name="تاريخ_x0020_الجلسة" msprop:Generator_ColumnVarNameInTable="columnتاريخ_الجلسة" msprop:Generator_ColumnPropNameInRow="تاريخ_الجلسة" msprop:Generator_ColumnPropNameInTable="تاريخ_الجلسةColumn" msprop:Generator_UserColumnName="تاريخ الجلسة" type="xs:string" minOccurs="0" />
+              <xs:element name="الاجراء" msprop:Generator_ColumnVarNameInTable="columnالاجراء" msprop:Generator_ColumnPropNameInRow="الاجراء" msprop:Generator_ColumnPropNameInTable="الاجراءColumn" msprop:Generator_UserColumnName="الاجراء" type="xs:string" minOccurs="0" />
+              <xs:element name="المدينة" msprop:Generator_ColumnVarNameInTable="columnالمدينة" msprop:Generator_ColumnPropNameInRow="المدينة" msprop:Generator_ColumnPropNameInTable="المدينةColumn" msprop:Generator_UserColumnName="المدينة" type="xs:string" minOccurs="0" />
+              <xs:element name="المحكمة" msprop:Generator_ColumnVarNameInTable="columnالمحكمة" msprop:Generator_ColumnPropNameInRow="المحكمة" msprop:Generator_ColumnPropNameInTable="المحكمةColumn" msprop:Generator_UserColumnName="المحكمة" type="xs:string" minOccurs="0" />
+              <xs:element name="القاضي" msprop:Generator_ColumnVarNameInTable="columnالقاضي" msprop:Generator_ColumnPropNameInRow="القاضي" msprop:Generator_ColumnPropNameInTable="القاضيColumn" msprop:Generator_UserColumnName="القاضي" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

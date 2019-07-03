@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="datasate_adv" targetNamespace="http://tempuri.org/datasate_adv.xsd" xmlns:mstns="http://tempuri.org/datasate_adv.xsd" xmlns="http://tempuri.org/datasate_adv.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="datasate_adv" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="datasate_adv" msprop:Generator_UserDSName="datasate_adv">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="adversaire" msprop:Generator_TableClassName="adversaireDataTable" msprop:Generator_TableVarName="tableadversaire" msprop:Generator_TablePropName="adversaire" msprop:Generator_RowDeletingName="adversaireRowDeleting" msprop:Generator_RowChangingName="adversaireRowChanging" msprop:Generator_RowEvHandlerName="adversaireRowChangeEventHandler" msprop:Generator_RowDeletedName="adversaireRowDeleted" msprop:Generator_UserTableName="adversaire" msprop:Generator_RowChangedName="adversaireRowChanged" msprop:Generator_RowEvArgName="adversaireRowChangeEvent" msprop:Generator_RowClassName="adversaireRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="مرجع_x0020_" msprop:Generator_ColumnVarNameInTable="columnمرجع_" msprop:Generator_ColumnPropNameInRow="مرجع_" msprop:Generator_ColumnPropNameInTable="مرجع_Column" msprop:Generator_UserColumnName="مرجع " type="xs:string" minOccurs="0" />
+              <xs:element name="الاسم" msprop:Generator_ColumnVarNameInTable="columnالاسم" msprop:Generator_ColumnPropNameInRow="الاسم" msprop:Generator_ColumnPropNameInTable="الاسمColumn" msprop:Generator_UserColumnName="الاسم" type="xs:string" minOccurs="0" />
+              <xs:element name="نائب_x0020_الخصم" msprop:Generator_ColumnVarNameInTable="columnنائب_الخصم" msprop:Generator_ColumnPropNameInRow="نائب_الخصم" msprop:Generator_ColumnPropNameInTable="نائب_الخصمColumn" msprop:Generator_UserColumnName="نائب الخصم" type="xs:string" minOccurs="0" />
+              <xs:element name="ر.ب.و" msprop:Generator_ColumnVarNameInTable="_columnر_ب_و" msprop:Generator_ColumnPropNameInRow="_ر_ب_و" msprop:Generator_ColumnPropNameInTable="_ر_ب_وColumn" msprop:Generator_UserColumnName="ر.ب.و" type="xs:string" minOccurs="0" />
+              <xs:element name="السجل_x0020_التجاري" msprop:Generator_ColumnVarNameInTable="columnالسجل_التجاري" msprop:Generator_ColumnPropNameInRow="السجل_التجاري" msprop:Generator_ColumnPropNameInTable="السجل_التجاريColumn" msprop:Generator_UserColumnName="السجل التجاري" type="xs:string" minOccurs="0" />
+              <xs:element name="الممثل_x0020_القانوني" msprop:Generator_ColumnVarNameInTable="columnالممثل_القانوني" msprop:Generator_ColumnPropNameInRow="الممثل_القانوني" msprop:Generator_ColumnPropNameInTable="الممثل_القانونيColumn" msprop:Generator_UserColumnName="الممثل القانوني" type="xs:string" minOccurs="0" />
+              <xs:element name="العنوان" msprop:Generator_ColumnVarNameInTable="columnالعنوان" msprop:Generator_ColumnPropNameInRow="العنوان" msprop:Generator_ColumnPropNameInTable="العنوانColumn" msprop:Generator_UserColumnName="العنوان" type="xs:string" minOccurs="0" />
+              <xs:element name="النوع" msprop:Generator_ColumnVarNameInTable="columnالنوع" msprop:Generator_ColumnPropNameInRow="النوع" msprop:Generator_ColumnPropNameInTable="النوعColumn" msprop:Generator_UserColumnName="النوع" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="avocat" msprop:Generator_TableClassName="avocatDataTable" msprop:Generator_TableVarName="tableavocat" msprop:Generator_TablePropName="avocat" msprop:Generator_RowDeletingName="avocatRowDeleting" msprop:Generator_RowChangingName="avocatRowChanging" msprop:Generator_RowEvHandlerName="avocatRowChangeEventHandler" msprop:Generator_RowDeletedName="avocatRowDeleted" msprop:Generator_UserTableName="avocat" msprop:Generator_RowChangedName="avocatRowChanged" msprop:Generator_RowEvArgName="avocatRowChangeEvent" msprop:Generator_RowClassName="avocatRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom_avocat" msprop:Generator_ColumnVarNameInTable="columnnom_avocat" msprop:Generator_ColumnPropNameInRow="nom_avocat" msprop:Generator_ColumnPropNameInTable="nom_avocatColumn" msprop:Generator_UserColumnName="nom_avocat" type="xs:string" minOccurs="0" />
+              <xs:element name="adresse" msprop:Generator_ColumnVarNameInTable="columnadresse" msprop:Generator_ColumnPropNameInRow="adresse" msprop:Generator_ColumnPropNameInTable="adresseColumn" msprop:Generator_UserColumnName="adresse" type="xs:string" minOccurs="0" />
+              <xs:element name="logo" msprop:Generator_ColumnVarNameInTable="columnlogo" msprop:Generator_ColumnPropNameInRow="logo" msprop:Generator_ColumnPropNameInTable="logoColumn" msprop:Generator_UserColumnName="logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="autorite" msprop:Generator_ColumnVarNameInTable="columnautorite" msprop:Generator_ColumnPropNameInRow="autorite" msprop:Generator_ColumnPropNameInTable="autoriteColumn" msprop:Generator_UserColumnName="autorite" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

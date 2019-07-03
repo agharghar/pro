@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataAllTanfid" targetNamespace="http://tempuri.org/DataAllTanfid.xsd" xmlns:mstns="http://tempuri.org/DataAllTanfid.xsd" xmlns="http://tempuri.org/DataAllTanfid.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataAllTanfid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataAllTanfid" msprop:Generator_UserDSName="DataAllTanfid">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="avocat" msprop:Generator_TableClassName="avocatDataTable" msprop:Generator_TableVarName="tableavocat" msprop:Generator_RowChangedName="avocatRowChanged" msprop:Generator_TablePropName="avocat" msprop:Generator_RowDeletingName="avocatRowDeleting" msprop:Generator_RowChangingName="avocatRowChanging" msprop:Generator_RowEvHandlerName="avocatRowChangeEventHandler" msprop:Generator_RowDeletedName="avocatRowDeleted" msprop:Generator_RowClassName="avocatRow" msprop:Generator_UserTableName="avocat" msprop:Generator_RowEvArgName="avocatRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom_avocat" msprop:Generator_ColumnVarNameInTable="columnnom_avocat" msprop:Generator_ColumnPropNameInRow="nom_avocat" msprop:Generator_ColumnPropNameInTable="nom_avocatColumn" msprop:Generator_UserColumnName="nom_avocat" type="xs:string" minOccurs="0" />
+              <xs:element name="adresse" msprop:Generator_ColumnVarNameInTable="columnadresse" msprop:Generator_ColumnPropNameInRow="adresse" msprop:Generator_ColumnPropNameInTable="adresseColumn" msprop:Generator_UserColumnName="adresse" type="xs:string" minOccurs="0" />
+              <xs:element name="logo" msprop:Generator_ColumnVarNameInTable="columnlogo" msprop:Generator_ColumnPropNameInRow="logo" msprop:Generator_ColumnPropNameInTable="logoColumn" msprop:Generator_UserColumnName="logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="autorite" msprop:Generator_ColumnVarNameInTable="columnautorite" msprop:Generator_ColumnPropNameInRow="autorite" msprop:Generator_ColumnPropNameInTable="autoriteColumn" msprop:Generator_UserColumnName="autorite" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tanfid" msprop:Generator_TableClassName="tanfidDataTable" msprop:Generator_TableVarName="tabletanfid" msprop:Generator_RowChangedName="tanfidRowChanged" msprop:Generator_TablePropName="tanfid" msprop:Generator_RowDeletingName="tanfidRowDeleting" msprop:Generator_RowChangingName="tanfidRowChanging" msprop:Generator_RowEvHandlerName="tanfidRowChangeEventHandler" msprop:Generator_RowDeletedName="tanfidRowDeleted" msprop:Generator_RowClassName="tanfidRow" msprop:Generator_UserTableName="tanfid" msprop:Generator_RowEvArgName="tanfidRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="الموكل" msprop:Generator_ColumnVarNameInTable="columnالموكل" msprop:Generator_ColumnPropNameInRow="الموكل" msprop:Generator_ColumnPropNameInTable="الموكلColumn" msprop:Generator_UserColumnName="الموكل" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_القضية" msprop:Generator_ColumnVarNameInTable="columnرقم_القضية" msprop:Generator_ColumnPropNameInRow="رقم_القضية" msprop:Generator_ColumnPropNameInTable="رقم_القضيةColumn" msprop:Generator_UserColumnName="رقم القضية" type="xs:string" minOccurs="0" />
+              <xs:element name="نوعها" msprop:Generator_ColumnVarNameInTable="columnنوعها" msprop:Generator_ColumnPropNameInRow="نوعها" msprop:Generator_ColumnPropNameInTable="نوعهاColumn" msprop:Generator_UserColumnName="نوعها" type="xs:string" minOccurs="0" />
+              <xs:element name="المحكمة" msprop:Generator_ColumnVarNameInTable="columnالمحكمة" msprop:Generator_ColumnPropNameInRow="المحكمة" msprop:Generator_ColumnPropNameInTable="المحكمةColumn" msprop:Generator_UserColumnName="المحكمة" type="xs:string" minOccurs="0" />
+              <xs:element name="المدينة" msprop:Generator_ColumnVarNameInTable="columnالمدينة" msprop:Generator_ColumnPropNameInRow="المدينة" msprop:Generator_ColumnPropNameInTable="المدينةColumn" msprop:Generator_UserColumnName="المدينة" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_التبليغ" msprop:Generator_ColumnVarNameInTable="columnرقم_التبليغ" msprop:Generator_ColumnPropNameInRow="رقم_التبليغ" msprop:Generator_ColumnPropNameInTable="رقم_التبليغColumn" msprop:Generator_UserColumnName="رقم التبليغ" type="xs:string" minOccurs="0" />
+              <xs:element name="رقم_x0020_التنفيد" msprop:Generator_ColumnVarNameInTable="columnرقم_التنفيد" msprop:Generator_ColumnPropNameInRow="رقم_التنفيد" msprop:Generator_ColumnPropNameInTable="رقم_التنفيدColumn" msprop:Generator_UserColumnName="رقم التنفيد" type="xs:string" minOccurs="0" />
+              <xs:element name="المنفد_x0020_عليه" msprop:Generator_ColumnVarNameInTable="columnالمنفد_عليه" msprop:Generator_ColumnPropNameInRow="المنفد_عليه" msprop:Generator_ColumnPropNameInTable="المنفد_عليهColumn" msprop:Generator_UserColumnName="المنفد عليه" type="xs:string" minOccurs="0" />
+              <xs:element name="تاريخ_x0020_التنفيد" msprop:Generator_ColumnVarNameInTable="columnتاريخ_التنفيد" msprop:Generator_ColumnPropNameInRow="تاريخ_التنفيد" msprop:Generator_ColumnPropNameInTable="تاريخ_التنفيدColumn" msprop:Generator_UserColumnName="تاريخ التنفيد" type="xs:string" minOccurs="0" />
+              <xs:element name="نوع_x0020_التنفيد" msprop:Generator_ColumnVarNameInTable="columnنوع_التنفيد" msprop:Generator_ColumnPropNameInRow="نوع_التنفيد" msprop:Generator_ColumnPropNameInTable="نوع_التنفيدColumn" msprop:Generator_UserColumnName="نوع التنفيد" type="xs:string" minOccurs="0" />
+              <xs:element name="المفوض_x0020_القضائي" msprop:Generator_ColumnVarNameInTable="columnالمفوض_القضائي" msprop:Generator_ColumnPropNameInRow="المفوض_القضائي" msprop:Generator_ColumnPropNameInTable="المفوض_القضائيColumn" msprop:Generator_UserColumnName="المفوض القضائي" type="xs:string" minOccurs="0" />
+              <xs:element name="الملاحظة" msprop:Generator_ColumnVarNameInTable="columnالملاحظة" msprop:Generator_ColumnPropNameInRow="الملاحظة" msprop:Generator_ColumnPropNameInTable="الملاحظةColumn" msprop:Generator_UserColumnName="الملاحظة" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

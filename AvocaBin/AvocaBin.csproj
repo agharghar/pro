@@ -1,0 +1,3092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CDA6B69-17AA-4587-8CD7-DFC50035955C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AvocaBin</RootNamespace>
+    <AssemblyName>AvocaBin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ahmed Ouberka\Desktop\chihaja\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>obj\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>obj\Debug\AvocaBin.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AvocaBin.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconeAvoca.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F7445F935D4FF957B7EBD4286305D9746481FADE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AvocaBin_CléTemporaire.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar">
+      <HintPath>..\packages\CircularProgressBar.2.5.6403.13419\lib\net35-client\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v16.2" />
+    <Reference Include="DevExpress.CodeParser.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Dashboard.v16.2.Win, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.2" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v16.2.UI, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Map.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.2.Drawing, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.2.Core" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v16.2.Extensions, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2" />
+    <Reference Include="DevExpress.Utils.v16.2.UI, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.2" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core" />
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.UI, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.Wizard, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.2" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v16.2.Presets, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v16.2.Win, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraMap.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.2.Extensions, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2.Extensions, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.5.6298.3372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.5.6298.3372\lib\net35-client\WinFormAnimation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connection.cs" />
+    <Compile Include="Controller\Activation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Activation.Designer.cs">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\AjalatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\AjalatForm.designer.cs">
+      <DependentUpon>AjalatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\allCauseArchive.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>allCauseArchive.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\allDepotPlainte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>allDepotPlainte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\appDataUtilisateur.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>appDataUtilisateur.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Avocat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Avocat.Designer.cs">
+      <DependentUpon>Avocat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\cause_archivé.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\cause_archivé.designer.cs">
+      <DependentUpon>cause_archivé.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Coercition_Physique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Coercition_Physique.Designer.cs">
+      <DependentUpon>Coercition_Physique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ConfigurationServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ConfigurationServer.Designer.cs">
+      <DependentUpon>ConfigurationServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Fonction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Fonction.Designer.cs">
+      <DependentUpon>Fonction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\FonctionAjoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FonctionAjoute.Designer.cs">
+      <DependentUpon>FonctionAjoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\FonctionSupprimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FonctionSupprimer.Designer.cs">
+      <DependentUpon>FonctionSupprimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\impimeAllPlaingnants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\impimeAllPlaingnants.designer.cs">
+      <DependentUpon>impimeAllPlaingnants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimerAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimerAgenda.designer.cs">
+      <DependentUpon>imprimerAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllAdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllAdv.designer.cs">
+      <DependentUpon>ImprimerAllAdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimerAllCauseArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimerAllCauseArchive.designer.cs">
+      <DependentUpon>imprimerAllCauseArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllCauses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllCauses.designer.cs">
+      <DependentUpon>ImprimerAllCauses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllClientCause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllClientCause.designer.cs">
+      <DependentUpon>ImprimerAllClientCause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDepotOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDepotOrder.designer.cs">
+      <DependentUpon>ImprimerAllDepotOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDepotPlainte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDepotPlainte.designer.cs">
+      <DependentUpon>ImprimerAllDepotPlainte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDept_Cause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerAllDept_Cause.designer.cs">
+      <DependentUpon>ImprimerAllDept_Cause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimerAllPar_Plai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimerAllPar_Plai.Designer.cs">
+      <DependentUpon>imprimerAllPar_Plai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerCauseArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerCauseArchive.designer.cs">
+      <DependentUpon>ImprimerCauseArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ImprimerClientCause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ImprimerClientCause.designer.cs">
+      <DependentUpon>ImprimerClientCause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimerParPlai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimerParPlai.designer.cs">
+      <DependentUpon>imprimerParPlai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimer_adv_cause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimer_adv_cause.designer.cs">
+      <DependentUpon>imprimer_adv_cause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Imprimer_cause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Imprimer_cause.designer.cs">
+      <DependentUpon>Imprimer_cause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Imprimer_Depot_Cause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Imprimer_Depot_Cause.designer.cs">
+      <DependentUpon>Imprimer_Depot_Cause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Imprimer_depot_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Imprimer_depot_order.designer.cs">
+      <DependentUpon>Imprimer_depot_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Imprimer_Depot_Plainte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Imprimer_Depot_Plainte.designer.cs">
+      <DependentUpon>Imprimer_Depot_Plainte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\imprimer_plaignant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\imprimer_plaignant.Designer.cs">
+      <DependentUpon>imprimer_plaignant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ListeTribunal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ListeTribunal.designer.cs">
+      <DependentUpon>ListeTribunal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ListeVille.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ListeVille.Designer.cs">
+      <DependentUpon>ListeVille.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\MassarifListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\MassarifListe.Designer.cs">
+      <DependentUpon>MassarifListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\orderArchivé.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\orderArchivé.Designer.cs">
+      <DependentUpon>orderArchivé.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Piece_Joint_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Piece_Joint_Order.Designer.cs">
+      <DependentUpon>Piece_Joint_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Piéce_Joint_Cause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Piéce_Joint_Cause.Designer.cs">
+      <DependentUpon>Piéce_Joint_Cause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Piéce_Joint_Plainte.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controller\Piéce_Joint_Plainte.Designer.cs">
+      <DependentUpon>Piéce_Joint_Plainte.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controller\plainteArchivé.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\plainteArchivé.Designer.cs">
+      <DependentUpon>plainteArchivé.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintAllCorrectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintAllCorrectionForm.designer.cs">
+      <DependentUpon>PrintAllCorrectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintAllOrderAdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintAllOrderAdvForm.Designer.cs">
+      <DependentUpon>PrintAllOrderAdvForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintAllOrderClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintAllOrderClientForm.Designer.cs">
+      <DependentUpon>PrintAllOrderClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\repAdv1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAdv1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\repAllParPlai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAllParPlai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\repAllPlaignant.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAllPlaignant.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\reportClientCause1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportClientCause1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\rep_par_plai.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep_par_plai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Tablirat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Tablirat.designer.cs">
+      <DependentUpon>Tablirat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ٌRepPrintAllTanfid.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ٌRepPrintAllTanfid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAllTanfid.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataAllTanfid.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAllPlaignat.cs">
+      <DependentUpon>DataSetAllPlaignat.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetAllPlaignat.designer.cs">
+      <DependentUpon>DataSetAllPlaignat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_par_plai.cs">
+      <DependentUpon>DataSet_par_plai.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet_par_plai.designer.cs">
+      <DependentUpon>DataSet_par_plai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateSet\PrintAllNotificationCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllNotificationCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintAllNotificationCrystalReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintAllNotificationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintAllNotificationsForm.designer.cs">
+      <DependentUpon>PrintAllNotificationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateSet\PrintNotificationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintNotificationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\cause\Session.cs" />
+    <Compile Include="Operation\notification.cs" />
+    <Compile Include="PrintAllTanfid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintAllTanfid.Designer.cs">
+      <DependentUpon>PrintAllTanfid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintCorrectionCrystalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintOneCorrectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintOneCorrectionForm.designer.cs">
+      <DependentUpon>PrintOneCorrectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintOneOrderAdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintOneOrderAdvForm.Designer.cs">
+      <DependentUpon>PrintOneOrderAdvForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintOneTanfid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintOneTanfid.designer.cs">
+      <DependentUpon>PrintOneTanfid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintOneTanfidOrder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\repAdv.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAdv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\repAgen.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAgen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\repAlldepotCause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repAlldepotCause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\RepAllDepotOrder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepAllDepotOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\ReportAgend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportAgend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Report_Plaignant.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Plaignant.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\rep_depot_cause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep_depot_cause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\rep_depot_order.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep_depot_order.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\rep_depot_plainte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep_depot_plainte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\tableau_Utilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\tableau_Utilisateur.designer.cs">
+      <DependentUpon>tableau_Utilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\TableHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\TableHistory.Designer.cs">
+      <DependentUpon>TableHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Tanfidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Tanfidate.Designer.cs">
+      <DependentUpon>Tanfidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Update_tanfid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Update_tanfid.Designer.cs">
+      <DependentUpon>Update_tanfid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\جلسات_الشكاية.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\جلسات_الشكاية.Designer.cs">
+      <DependentUpon>جلسات_الشكاية.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datasate_adv.cs">
+      <DependentUpon>datasate_adv.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasate_adv.Designer.cs">
+      <DependentUpon>datasate_adv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.cs">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAgenda.cs">
+      <DependentUpon>DataSetAgenda.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetAgenda.designer.cs">
+      <DependentUpon>DataSetAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCause.cs">
+      <DependentUpon>DataSetCause.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetCause.designer.cs">
+      <DependentUpon>DataSetCause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datasetClient.Designer.cs" />
+    <Compile Include="DataTanfid.cs">
+      <DependentUpon>DataTanfid.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataTanfid.designer.cs">
+      <DependentUpon>DataTanfid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateSet\PrintCorrectionDataSet.cs">
+      <DependentUpon>PrintCorrectionDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintCorrectionDataSet.designer.cs">
+      <DependentUpon>PrintCorrectionDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateSet\PrintCorrectionDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintCorrectionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.cs" />
+    <Compile Include="Models\cause\depot_Cause.cs" />
+    <Compile Include="Models\CoercitionPhysique.cs" />
+    <Compile Include="Models\depot_order.cs" />
+    <Compile Include="Models\Plaintes\depot_plaint.cs" />
+    <Compile Include="Models\Plaintes\Session_Plainte.cs" />
+    <Compile Include="Models\RDV.cs" />
+    <Compile Include="Models\TextJuridique\TextJuridique.cs" />
+    <Compile Include="Operation\Coercition_PhysiqueOP.cs" />
+    <Compile Include="Operation\OperationRDV.cs" />
+    <Compile Include="Operation\order_operation.cs" />
+    <Compile Include="PrintAllClientOrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllClientOrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllDepotCauseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllDepotCauseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllDepotOrderDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllDepotOrderDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllDepotPlaintDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllDepotPlaintDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllOrderAdvCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllOrderAdvCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintAllOrderAdvDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllOrderAdvDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllOrderClientCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllOrderClientCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintAllPlaintDataSet.cs">
+      <DependentUpon>PrintAllPlaintDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllPlaintDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllPlaintDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllPlainteArchivé.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintAllPlainteArchivé.Designer.cs">
+      <DependentUpon>PrintAllPlainteArchivé.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllPlainteCrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllPlainteCrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintDecisionDataSet.cs">
+      <DependentUpon>PrintDecisionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintDecisionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintDecisionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMassarifCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintMassarifCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintMassarifDataSet.cs">
+      <DependentUpon>PrintMassarifDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMassarifDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintMassarifDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintMassarifForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintMassarifForm.Designer.cs">
+      <DependentUpon>PrintMassarifForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\PrintOneOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\PrintOneOrderForm.Designer.cs">
+      <DependentUpon>PrintOneOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ProposNous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ProposNous.Designer.cs">
+      <DependentUpon>ProposNous.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\RepAllCauses.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepAllCauses.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\reportAllAdv_Cause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportAllAdv_Cause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\reportAllclientCause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportAllclientCause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\reportAllPlaintes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportAllPlaintes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\reportClientCause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportClientCause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\report_Adv_Cause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_Adv_Cause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\report_cause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_cause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controller\Tableau_Des_RDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Tableau_Des_RDV.Designer.cs">
+      <DependentUpon>Tableau_Des_RDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\TextJuridique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\TextJuridique.designer.cs">
+      <DependentUpon>TextJuridique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\tribunalAjouter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\tribunalAjouter.designer.cs">
+      <DependentUpon>tribunalAjouter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\tribunalSuprimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\tribunalSuprimer.designer.cs">
+      <DependentUpon>tribunalSuprimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\VilleAjoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\VilleAjoute.Designer.cs">
+      <DependentUpon>VilleAjoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\VilleSupprimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\VilleSupprimer.Designer.cs">
+      <DependentUpon>VilleSupprimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Wadiaa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Wadiaa.Designer.cs">
+      <DependentUpon>Wadiaa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\المصاريف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\المصاريف.Designer.cs">
+      <DependentUpon>المصاريف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\جدول_الاوامر.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\جدول_الاوامر.Designer.cs">
+      <DependentUpon>جدول_الاوامر.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Creation_Des_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\Creation_Des_Compte.Designer.cs">
+      <DependentUpon>Creation_Des_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.designer.cs">
+      <DependentUpon>DataSet1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.cs">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DateExpiration.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetSerial.cs" />
+    <Compile Include="MessageBoxManager.cs" />
+    <Compile Include="Models\cause\adversaire_cause.cs" />
+    <Compile Include="Models\cause\cause.cs" />
+    <Compile Include="Models\cause\client_cause.cs" />
+    <Compile Include="Models\cause\PJ_cause.cs" />
+    <Compile Include="Models\history.cs" />
+    <Compile Include="Models\Plaintes\Decision.cs" />
+    <Compile Include="Models\Plaintes\Par_plaignant.cs" />
+    <Compile Include="Models\Plaintes\PjPlainte.cs" />
+    <Compile Include="Models\Plaintes\Plaignant.cs" />
+    <Compile Include="Models\Plaintes\Plainte.cs" />
+    <Compile Include="Models\Plaintes\PlainteParPlaignant.cs" />
+    <Compile Include="Models\TextJuridique\d.cs" />
+    <Compile Include="OneOrderDataSet.cs">
+      <DependentUpon>OneOrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OneOrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OneOrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Cause_Operations.cs" />
+    <Compile Include="Operation\PlaintesOperations.cs" />
+    <Compile Include="Models\adv_order.cs" />
+    <Compile Include="Models\client_order.cs" />
+    <Compile Include="Models\order.cs" />
+    <Compile Include="Models\PjOrder.cs" />
+    <Compile Include="PrintAllOrdersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintAllOrdersForm.Designer.cs">
+      <DependentUpon>PrintAllOrdersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAllOrdersReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintAllOrdersReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintAllPlaintes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintAllPlaintes.designer.cs">
+      <DependentUpon>PrintAllPlaintes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneClientOrderCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneClientOrderCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintOneClientOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintOneClientOrderForm.Designer.cs">
+      <DependentUpon>PrintOneClientOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneNotificationCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneNotificationCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintOneNotificationDataSet.cs">
+      <DependentUpon>PrintOneNotificationDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateSet\PrintOneNotificationDataSet.Designer.cs">
+      <DependentUpon>PrintOneNotificationDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateSet\PrintOneNotificationDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneNotificationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneNotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintOneNotificationForm.Designer.cs">
+      <DependentUpon>PrintOneNotificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneOrderAdvCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneOrderAdvCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintOneOrderAdvDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneOrderAdvDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneOrderClientDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneOrderClientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOneOrderCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneOrderCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintOnePlainteCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOnePlainteCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintPlaintDataSet.cs">
+      <DependentUpon>PrintPlaintDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintPlaintDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintPlaintDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controller\ادارة الخصوم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ادارة الخصوم.Designer.cs">
+      <DependentUpon>ادارة الخصوم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ادارة الموكلين.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ادارة الموكلين.Designer.cs">
+      <DependentUpon>ادارة الموكلين.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ادارة_خصوم_الامر.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ادارة_خصوم_الامر.Designer.cs">
+      <DependentUpon>ادارة_خصوم_الامر.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ادارة_موكلي_الامر.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\ادارة_موكلي_الامر.Designer.cs">
+      <DependentUpon>ادارة_موكلي_الامر.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\الأمر.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\الأمر.Designer.cs">
+      <DependentUpon>الأمر.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\الجلسات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\الجلسات.Designer.cs">
+      <DependentUpon>الجلسات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\المشتكون.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\المشتكون.Designer.cs">
+      <DependentUpon>المشتكون.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\المشتكون_بهم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\المشتكون_بهم.Designer.cs">
+      <DependentUpon>المشتكون_بهم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\الموضوع.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\الموضوع.Designer.cs">
+      <DependentUpon>الموضوع.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\اليومية.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\اليومية.Designer.cs">
+      <DependentUpon>اليومية.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\جدول_القضايا.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\جدول_القضايا.Designer.cs">
+      <DependentUpon>جدول_القضايا.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\جدول_الشكايات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\جدول_الشكايات.Designer.cs">
+      <DependentUpon>جدول_الشكايات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\دليل_الهاتف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\دليل_الهاتف.Designer.cs">
+      <DependentUpon>دليل_الهاتف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\شكاية.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\شكاية.Designer.cs">
+      <DependentUpon>شكاية.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOneCauseDepotPiece.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportOneCauseDepotPiece.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportOneOrderDepotPiece.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportOneOrderDepotPiece.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportOnePlgntDepotPiece.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportOnePlgntDepotPiece.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\DataSetPrintOnePieceDepot.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPrintOnePieceDepot.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotCause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotCause.Designer.cs">
+      <DependentUpon>ImprimerOnePieceJointDepotCause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotOrder.Designer.cs">
+      <DependentUpon>ImprimerOnePieceJointDepotOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotPlgnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ImprimerOnePieceJointDepotPlgnt.Designer.cs">
+      <DependentUpon>ImprimerOnePieceJointDepotPlgnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PrintCorrectionCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintCorrectionCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PrintOneCorrectionCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneCorrectionCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PrintOnePieceDepotOrder.cs" />
+    <Compile Include="Report\PrintOnePieceJointDepotCause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\PrintOnePieceJointDepotCause.Designer.cs">
+      <DependentUpon>PrintOnePieceJointDepotCause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PrintOnePieceJointDepotPlgnt.cs" />
+    <Compile Include="Report\PrintOneTanfidOrder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOneTanfidOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="repTanfid.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>repTanfid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rep_cause.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep_cause.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SubReportDecisionCrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SubReportDecisionCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controller\Activation.resx">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ActivationAvocaBine.resx" />
+    <EmbeddedResource Include="Controller\AjalatForm.resx">
+      <DependentUpon>AjalatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\allCauseArchive.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>allCauseArchive.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\allDepotPlainte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>allDepotPlainte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Avocat.resx">
+      <DependentUpon>Avocat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\cause_archivé.resx">
+      <DependentUpon>cause_archivé.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Coercition_Physique.resx">
+      <DependentUpon>Coercition_Physique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ConfigurationServer.resx">
+      <DependentUpon>ConfigurationServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Fonction.resx">
+      <DependentUpon>Fonction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FonctionAjoute.resx">
+      <DependentUpon>FonctionAjoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FonctionSupprimer.resx">
+      <DependentUpon>FonctionSupprimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FormMain.ar-MA.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\impimeAllPlaingnants.resx">
+      <DependentUpon>impimeAllPlaingnants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimerAgenda.resx">
+      <DependentUpon>imprimerAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllAdv.resx">
+      <DependentUpon>ImprimerAllAdv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimerAllCauseArchive.resx">
+      <DependentUpon>imprimerAllCauseArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllCauses.resx">
+      <DependentUpon>ImprimerAllCauses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllClientCause.resx">
+      <DependentUpon>ImprimerAllClientCause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllDepotOrder.resx">
+      <DependentUpon>ImprimerAllDepotOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllDepotPlainte.resx">
+      <DependentUpon>ImprimerAllDepotPlainte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerAllDept_Cause.resx">
+      <DependentUpon>ImprimerAllDept_Cause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimerAllPar_Plai.resx">
+      <DependentUpon>imprimerAllPar_Plai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerCauseArchive.resx">
+      <DependentUpon>ImprimerCauseArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ImprimerClientCause.resx">
+      <DependentUpon>ImprimerClientCause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimerParPlai.resx">
+      <DependentUpon>imprimerParPlai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimer_adv_cause.resx">
+      <DependentUpon>imprimer_adv_cause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Imprimer_cause.resx">
+      <DependentUpon>Imprimer_cause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Imprimer_Depot_Cause.resx">
+      <DependentUpon>Imprimer_Depot_Cause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Imprimer_depot_order.resx">
+      <DependentUpon>Imprimer_depot_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Imprimer_Depot_Plainte.resx">
+      <DependentUpon>Imprimer_Depot_Plainte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\imprimer_plaignant.resx">
+      <DependentUpon>imprimer_plaignant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ListeTribunal.resx">
+      <DependentUpon>ListeTribunal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ListeVille.resx">
+      <DependentUpon>ListeVille.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\MassarifListe.resx">
+      <DependentUpon>MassarifListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\orderArchivé.resx">
+      <DependentUpon>orderArchivé.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Piece_Joint_Order.resx">
+      <DependentUpon>Piece_Joint_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Piéce_Joint_Cause.resx">
+      <DependentUpon>Piéce_Joint_Cause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Piéce_Joint_Plainte.resx">
+      <DependentUpon>Piéce_Joint_Plainte.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\plainteArchivé.resx">
+      <DependentUpon>plainteArchivé.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintAllCorrectionForm.resx">
+      <DependentUpon>PrintAllCorrectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintAllOrderAdvForm.resx">
+      <DependentUpon>PrintAllOrderAdvForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintAllOrderClientForm.resx">
+      <DependentUpon>PrintAllOrderClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAdv1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAdv1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAllParPlai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAllParPlai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAllPlaignant.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAllPlaignant.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\reportClientCause1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportClientCause1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\rep_par_plai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep_par_plai.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Tablirat.resx">
+      <DependentUpon>Tablirat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ٌRepPrintAllTanfid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ٌRepPrintAllTanfid.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateSet\PrintAllNotificationCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintAllNotificationCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateSet\PrintAllNotificationsForm.resx">
+      <DependentUpon>PrintAllNotificationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllTanfid.resx">
+      <DependentUpon>PrintAllTanfid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintMassarifForm.resx">
+      <DependentUpon>PrintMassarifForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintOneCorrectionForm.resx">
+      <DependentUpon>PrintOneCorrectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintOneOrderAdvForm.resx">
+      <DependentUpon>PrintOneOrderAdvForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintOneOrderForm.resx">
+      <DependentUpon>PrintOneOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\PrintOneTanfid.resx">
+      <DependentUpon>PrintOneTanfid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ProposNous.resx">
+      <DependentUpon>ProposNous.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAdv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAdv.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAgen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAgen.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\RepAllCauses.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepAllCauses.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\repAlldepotCause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repAlldepotCause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\RepAllDepotOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepAllDepotOrder.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ReportAgend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportAgend.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\reportAllAdv_Cause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportAllAdv_Cause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\reportAllclientCause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportAllclientCause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\reportAllPlaintes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportAllPlaintes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\reportClientCause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reportClientCause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\report_Adv_Cause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_Adv_Cause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\report_cause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_cause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Report_Plaignant.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Plaignant.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\rep_depot_cause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep_depot_cause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\rep_depot_order.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep_depot_order.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\rep_depot_plainte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep_depot_plainte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Tableau_Des_RDV.resx">
+      <DependentUpon>Tableau_Des_RDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\tableau_Utilisateur.resx">
+      <DependentUpon>tableau_Utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\TableHistory.resx">
+      <DependentUpon>TableHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Tanfidate.resx">
+      <DependentUpon>Tanfidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\TextJuridique.resx">
+      <DependentUpon>TextJuridique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\tribunalAjouter.resx">
+      <DependentUpon>tribunalAjouter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\tribunalSuprimer.resx">
+      <DependentUpon>tribunalSuprimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Update_tanfid.resx">
+      <DependentUpon>Update_tanfid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\VilleAjoute.resx">
+      <DependentUpon>VilleAjoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\VilleSupprimer.resx">
+      <DependentUpon>VilleSupprimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Wadiaa.resx">
+      <DependentUpon>Wadiaa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\المصاريف.resx">
+      <DependentUpon>المصاريف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\جدول_الاوامر.resx">
+      <DependentUpon>جدول_الاوامر.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\Creation_Des_Compte.resx">
+      <DependentUpon>Creation_Des_Compte.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\جلسات_الشكاية.resx">
+      <DependentUpon>جلسات_الشكاية.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllOrderAdvCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintAllOrderAdvCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllOrderClientCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintAllOrderClientCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllOrdersForm.resx">
+      <DependentUpon>PrintAllOrdersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllOrdersReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintAllOrdersReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllPlainteArchivé.resx">
+      <DependentUpon>PrintAllPlainteArchivé.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllPlainteCrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintAllPlainteCrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAllPlaintes.resx">
+      <DependentUpon>PrintAllPlaintes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintMassarifCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintMassarifCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneClientOrderCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneClientOrderCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneClientOrderForm.resx">
+      <DependentUpon>PrintOneClientOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneNotificationCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneNotificationCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneNotificationForm.resx">
+      <DependentUpon>PrintOneNotificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneOrderAdvCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneOrderAdvCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOneOrderCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneOrderCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOnePlainteCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOnePlainteCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Controller\ادارة الخصوم.resx">
+      <DependentUpon>ادارة الخصوم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ادارة الموكلين.resx">
+      <DependentUpon>ادارة الموكلين.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ادارة_خصوم_الامر.resx">
+      <DependentUpon>ادارة_خصوم_الامر.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ادارة_موكلي_الامر.resx">
+      <DependentUpon>ادارة_موكلي_الامر.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\الأمر.resx">
+      <DependentUpon>الأمر.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\الجلسات.resx">
+      <DependentUpon>الجلسات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\المشتكون.resx">
+      <DependentUpon>المشتكون.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\المشتكون_بهم.resx">
+      <DependentUpon>المشتكون_بهم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\الموضوع.resx">
+      <DependentUpon>الموضوع.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\اليومية.resx">
+      <DependentUpon>اليومية.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\جدول_القضايا.resx">
+      <DependentUpon>جدول_القضايا.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\جدول_الشكايات.resx">
+      <DependentUpon>جدول_الشكايات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\دليل_الهاتف.resx">
+      <DependentUpon>دليل_الهاتف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\شكاية.resx">
+      <DependentUpon>شكاية.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOneCauseDepotPiece.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportOneCauseDepotPiece.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOneOrderDepotPiece.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportOneOrderDepotPiece.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOnePlgntDepotPiece.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportOnePlgntDepotPiece.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ImprimerOnePieceJointDepotCause.resx">
+      <DependentUpon>ImprimerOnePieceJointDepotCause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ImprimerOnePieceJointDepotOrder.resx">
+      <DependentUpon>ImprimerOnePieceJointDepotOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ImprimerOnePieceJointDepotPlgnt.resx">
+      <DependentUpon>ImprimerOnePieceJointDepotPlgnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PrintCorrectionCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintCorrectionCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PrintOneCorrectionCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneCorrectionCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PrintOneTanfidOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOneTanfidOrder.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="repTanfid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>repTanfid.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rep_cause.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep_cause.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubReportDecisionCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SubReportDecisionCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest" />
+    <None Include="AvocaBin_CléTemporaire.pfx" />
+    <None Include="Controller\appDataUtilisateur.xsc">
+      <DependentUpon>appDataUtilisateur.xsd</DependentUpon>
+    </None>
+    <None Include="Controller\appDataUtilisateur.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>appDataUtilisateur.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Controller\appDataUtilisateur.xss">
+      <DependentUpon>appDataUtilisateur.xsd</DependentUpon>
+    </None>
+    <None Include="DataAllTanfid.xsc">
+      <DependentUpon>DataAllTanfid.xsd</DependentUpon>
+    </None>
+    <None Include="DataAllTanfid.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataAllTanfid.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataAllTanfid.xss">
+      <DependentUpon>DataAllTanfid.xsd</DependentUpon>
+    </None>
+    <None Include="datasate_adv.xsc">
+      <DependentUpon>datasate_adv.xsd</DependentUpon>
+    </None>
+    <None Include="datasate_adv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasate_adv1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datasate_adv.xss">
+      <DependentUpon>datasate_adv.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAgenda.xsc">
+      <DependentUpon>DataSetAgenda.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAgenda.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAgenda1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetAgenda.xss">
+      <DependentUpon>DataSetAgenda.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAllPlaignat.xsc">
+      <DependentUpon>DataSetAllPlaignat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAllPlaignat.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAllPlaignat1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetAllPlaignat.xss">
+      <DependentUpon>DataSetAllPlaignat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCause.xsc">
+      <DependentUpon>DataSetCause.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCause.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCause1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetCause.xss">
+      <DependentUpon>DataSetCause.xsd</DependentUpon>
+    </None>
+    <None Include="datasetClient.xsc">
+      <DependentUpon>datasetClient.xsd</DependentUpon>
+    </None>
+    <None Include="datasetClient.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasetClient1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datasetClient.xss">
+      <DependentUpon>datasetClient.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_par_plai.xsc">
+      <DependentUpon>DataSet_par_plai.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_par_plai.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_par_plai1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_par_plai.xss">
+      <DependentUpon>DataSet_par_plai.xsd</DependentUpon>
+    </None>
+    <None Include="DataTanfid.xsc">
+      <DependentUpon>DataTanfid.xsd</DependentUpon>
+    </None>
+    <None Include="DataTanfid.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataTanfid1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataTanfid.xss">
+      <DependentUpon>DataTanfid.xsd</DependentUpon>
+    </None>
+    <None Include="DateSet\PrintCorrectionDataSet.xsc">
+      <DependentUpon>PrintCorrectionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DateSet\PrintCorrectionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintCorrectionDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DateSet\PrintCorrectionDataSet.xss">
+      <DependentUpon>PrintCorrectionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DateSet\PrintNotificationDataSet.xsc">
+      <DependentUpon>PrintNotificationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DateSet\PrintNotificationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintNotificationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DateSet\PrintNotificationDataSet.xss">
+      <DependentUpon>PrintNotificationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllClientOrderDataSet.xsc">
+      <DependentUpon>PrintAllClientOrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllClientOrderDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllClientOrderDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllClientOrderDataSet.xss">
+      <DependentUpon>PrintAllClientOrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotCauseDataSet4.xsc">
+      <DependentUpon>PrintAllDepotCauseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotCauseDataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllDepotCauseDataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllDepotCauseDataSet4.xss">
+      <DependentUpon>PrintAllDepotCauseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotOrderDataSet4.xsc">
+      <DependentUpon>PrintAllDepotOrderDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotOrderDataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllDepotOrderDataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllDepotOrderDataSet4.xss">
+      <DependentUpon>PrintAllDepotOrderDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotPlaintDataSet4.xsc">
+      <DependentUpon>PrintAllDepotPlaintDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllDepotPlaintDataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllDepotPlaintDataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllDepotPlaintDataSet4.xss">
+      <DependentUpon>PrintAllDepotPlaintDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllOrderAdvDataSet.xsc">
+      <DependentUpon>PrintAllOrderAdvDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllOrderAdvDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllOrderAdvDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllOrderAdvDataSet.xss">
+      <DependentUpon>PrintAllOrderAdvDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllPlaintDataSet.xsc">
+      <DependentUpon>PrintAllPlaintDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintAllPlaintDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintAllPlaintDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintAllPlaintDataSet.xss">
+      <DependentUpon>PrintAllPlaintDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDecisionDataSet.xsc">
+      <DependentUpon>PrintDecisionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintDecisionDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintDecisionDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintDecisionDataSet.xss">
+      <DependentUpon>PrintDecisionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintMassarifDataSet.xsc">
+      <DependentUpon>PrintMassarifDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintMassarifDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintMassarifDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintMassarifDataSet.xss">
+      <DependentUpon>PrintMassarifDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OneOrderDataSet.xsc">
+      <DependentUpon>OneOrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OneOrderDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OneOrderDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OneOrderDataSet.xss">
+      <DependentUpon>OneOrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="DateSet\PrintOneNotificationDataSet.xsc">
+      <DependentUpon>PrintOneNotificationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DateSet\PrintOneNotificationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintOneNotificationDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DateSet\PrintOneNotificationDataSet.xss">
+      <DependentUpon>PrintOneNotificationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintOneOrderAdvDataSet.xsc">
+      <DependentUpon>PrintOneOrderAdvDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintOneOrderAdvDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintOneOrderAdvDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintOneOrderAdvDataSet.xss">
+      <DependentUpon>PrintOneOrderAdvDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintOneOrderClientDataSet.xsc">
+      <DependentUpon>PrintOneOrderClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintOneOrderClientDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintOneOrderClientDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintOneOrderClientDataSet.xss">
+      <DependentUpon>PrintOneOrderClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintPlaintDataSet.xsc">
+      <DependentUpon>PrintPlaintDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintPlaintDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintPlaintDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PrintPlaintDataSet.xss">
+      <DependentUpon>PrintPlaintDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\AvocaBin.Models.cause.client_cause.datasource" />
+    <None Include="Properties\DataSources\AvocaBin.Models.Plaintes.Par_plaignant.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Report\DataSetPrintOnePieceDepot.xsc">
+      <DependentUpon>DataSetPrintOnePieceDepot.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetPrintOnePieceDepot.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPrintOnePieceDepot.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\DataSetPrintOnePieceDepot.xss">
+      <DependentUpon>DataSetPrintOnePieceDepot.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\drive-key-icone-8814.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1-12.png" />
+    <None Include="Resources\Untitled-1-161.png" />
+    <None Include="Resources\Splach.png" />
+    <None Include="Resources\ok-01.png" />
+    <None Include="Resources\Untitled-1-141.png" />
+    <None Include="Resources\Untitled-1-13.png" />
+    <None Include="Resources\OQ5KB31_time_to_market4.png" />
+    <None Include="Resources\Untitled-1-14.png" />
+    <None Include="Resources\Untitled-1-19.png" />
+    <None Include="Resources\Untitled-1-17.png" />
+    <None Include="Resources\Untitled-1-181.png" />
+    <None Include="Resources\Sans titre 3.png" />
+    <None Include="Resources\Untitled-1-18.png" />
+    <None Include="Resources\Untitled-1-15.png" />
+    <None Include="Resources\Untitled-1-16.png" />
+    <None Include="Resources\Untitled-1-01.png" />
+    <None Include="Resources\Untitled-1-02.png" />
+    <None Include="Resources\theam-01.jpg" />
+    <None Include="Resources\6[1]-011.png" />
+    <Content Include="iconeAvoca.ico" />
+    <None Include="Resources\icon-04.png" />
+    <None Include="Resources\icon-03.png" />
+    <None Include="Resources\icon-02.png" />
+    <None Include="Resources\document2-39.png" />
+    <None Include="Resources\document2-47.png" />
+    <None Include="Resources\document2-38.png" />
+    <None Include="Resources\document2-04.png" />
+    <None Include="Resources\document2-16.png" />
+    <None Include="Resources\document2-17.png" />
+    <None Include="Resources\document2-18.png" />
+    <None Include="Resources\document2-20.png" />
+    <None Include="Resources\document2-19.png" />
+    <None Include="Resources\document2-21.png" />
+    <None Include="Resources\document2-02.png" />
+    <None Include="Resources\document2-24.png" />
+    <None Include="Resources\document2-25.png" />
+    <None Include="Resources\document2-28.png" />
+    <None Include="Resources\document2-27.png" />
+    <None Include="Resources\document2-26.png" />
+    <None Include="Resources\document2-05.png" />
+    <None Include="Resources\document2-03.png" />
+    <None Include="Resources\document2-29.png" />
+    <None Include="Resources\document2-30.png" />
+    <None Include="Resources\document2-31.png" />
+    <None Include="Resources\document2-32.png" />
+    <None Include="Resources\document2-06.png" />
+    <None Include="Resources\document2-071.png" />
+    <None Include="Resources\document2-331.png" />
+    <None Include="Resources\document2-341.png" />
+    <None Include="Resources\document2-081.png" />
+    <None Include="Resources\document2-351.png" />
+    <None Include="Resources\document2-361.png" />
+    <None Include="Resources\document2-111.png" />
+    <None Include="Resources\document2-371.png" />
+    <None Include="Resources\document2-121.png" />
+    <None Include="Resources\document2-381.png" />
+    <None Include="Resources\document2-391.png" />
+    <None Include="Resources\document2-401.png" />
+    <None Include="Resources\document2-411.png" />
+    <None Include="Resources\document2-421.png" />
+    <None Include="Resources\document2-131.png" />
+    <None Include="Resources\document2-471.png" />
+    <None Include="Resources\document2-461.png" />
+    <None Include="Resources\document2-151.png" />
+    <None Include="Resources\document2-451.png" />
+    <None Include="Resources\document2-171.png" />
+    <None Include="Resources\document2-181.png" />
+    <None Include="Resources\document2-141.png" />
+    <None Include="Resources\document2-491.png" />
+    <None Include="Resources\document2-481.png" />
+    <None Include="Resources\Fond ecran des forms.png" />
+    <None Include="Resources\icon-02-Blach.png" />
+    <None Include="Resources\icon mini-01.png" />
+    <None Include="Resources\icon mini-02.png" />
+    <None Include="Resources\icon mini-03.png" />
+    <None Include="Resources\document2-082.png" />
+    <None Include="Resources\document2-101.png" />
+    <None Include="Resources\document2-091.png" />
+    <None Include="Resources\+ - -icon-01.png" />
+    <None Include="Resources\admin panel3-03.png" />
+    <None Include="Resources\3132-01.png" />
+    <None Include="Resources\31322fgf2-01.jpg" />
+    <Content Include="Resources\iconeAvoca1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ONAddInForWord">
+      <Guid>{238AA1AC-786F-4C17-BAAB-253670B449B9}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="AxInterop.AcroPDFLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CircularProgressBar">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.BonusSkins.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Charts.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.CodeParser.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Dashboard.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Data.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.DataAccess.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.DataAccess.v16.2.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Diagram.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Images.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Map.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Office.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Pdf.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Pdf.v16.2.Drawing">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.PivotGrid.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Printing.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.RichEdit.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Snap.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Snap.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Snap.v16.2.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Sparkline.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.SpellChecker.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.TreeMap.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v16.2.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Xpo.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraBars.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.2.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.2.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v16.2.Wizard">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraDiagram.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v16.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v16.2.Presets">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v16.2.Win">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGrid.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraLayout.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraMap.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraNavBar.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPdfViewer.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPivotGrid.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraPrinting.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraReports.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraReports.v16.2.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraRichEdit.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraRichEdit.v16.2.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraSpellChecker.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeList.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeMap.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraVerticalGrid.v16.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraBars.v16.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraCharts.v16.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraCharts.v16.2.Wizard.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraEditors.v16.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraGauges.v16.2.Core.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraGauges.v16.2.Presets.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="de\DevExpress.XtraPdfViewer.v16.2.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="fr\Microsoft.ReportViewer.WinForms.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="iconeAvoca.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.AcroPDFLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\iconeAvoca1.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="WinFormAnimation">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
